@@ -1,1 +1,7 @@
-An introductory task showing the role of gauge potential, which yields important non-adiabatic corrections to the dynamics. By engineering the time-dependent Hamiltonian appropriately, it guides the quantum system through its evolution, ensuring that the system remains in its ground state or the desired state. This effectively eliminates errors that could result from non-adiabatic transitions.
+# Introduction to Counterdiabatic Driving
+
+This repository contains a simple Python implementation of counterdiabatic driving for a two-level quantum system.
+
+The script defines a time-dependent Hamiltonian, an interpolation schedule, and an approximate gauge potential. These components are used to construct a counterdiabatic Hamiltonian and simulate the time evolution of an initial quantum state.
+
+The goal of the project is to illustrate, in a minimal numerical example, how an additional counterdiabatic term can be included in the Hamiltonian to guide the system during finite-time evolution.
